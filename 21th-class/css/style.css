@@ -1,0 +1,46 @@
+
+body{
+    background-image: url(/images/body-bg.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.form-log{
+    background-image: url(/images/login-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 500px;
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 100px auto;
+
+
+}
+.login-heder{
+    text-align: center;
+   color: #fff;
+    margin: 5PX;
+}
+.inner-form{
+    
+    padding-left: 50px;
+    margin-top: 20PX;
+}
+.inner-form input{
+    margin-top: 10PX;
+    margin-left: 80px;
+}
+.inner-form label{
+color: #fff;
+}
+.input-pass input{
+    margin-left: 55px;
+}
+.subm-in{
+    width: 20%;
+    margin: 10px auto;
+    
+}
+.subm-in input{
+    margin: 0;
+}
