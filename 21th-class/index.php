@@ -16,10 +16,13 @@
             $x = 10;
             $y = 20;
             function multipication(){
-                $mul = $GLOBALS['x'] * $GLOBALS['y'];
-                echo $mul;
+             //   $mul = $GLOBALS['x'] * $GLOBALS['y'];
+             //   echo $mul;
+             $GLOBALS['mul'] = $GLOBALS['x'] * $GLOBALS['y'];
             }
+           // multipication();
             multipication();
+            echo $mul;
         
         
         
