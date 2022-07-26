@@ -13,6 +13,7 @@
     <div class="container">
         <h1>Rofikul</h1>
         <?php
+        /*
             $x = 10;
             $y = 20;
             function multipication(){
@@ -23,8 +24,8 @@
            // multipication();
             multipication();
             echo $mul;
-        
-        
+            */
+            echo $_SERVER['SCRIPT_NAME'];
         
         ?>
 
