@@ -4,7 +4,7 @@
     $pasword = "";
     $dbname = "card_db";
     $db_name = "webdev_rofikul";
-    $conn = mysqli_connect($servername,$username,$pasword,$db_name);
+    $conn = mysqli_connect($servername,$username,$pasword,$dbname);
 
      if(!$conn){
         die("connection failed".mysqli_connect_error());
