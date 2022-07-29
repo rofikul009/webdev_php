@@ -101,8 +101,8 @@ body {
 <body>
 
 <div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
+  <a href="#">Home</a>
+  <a href="#">News</a>
   <div class="dropdown">
     <button class="dropbtn">Dropdown 
       <i class="fa fa-caret-down"></i>
@@ -127,7 +127,7 @@ body {
         <div class="column">
           <h3>Category 3</h3>
           <a href="insert.php">insert.php</a>
-          <a href="#">Link 2</a>
+          <a href="select.php">select.php</a>
           <a href="#">Link 3</a>
         </div>
       </div>

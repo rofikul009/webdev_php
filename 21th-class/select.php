@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,44 +13,46 @@
 <body>
 
 <div class="container">
-  <h2 class="text-center text-primary">Crud operotion</h2>
-            
-  <table class="table table-striped">
+  <h2>Basic Table</h2>
+  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>            
+  <table class="table">
     <thead>
       <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
         <th>Email</th>
-        <th>Date of barth</th>
-        <th>Action</th>
       </tr>
     </thead>
     <tbody>
     <?php
-        include_once 'connect.php';
+  include_once 'connect.php';
 
-        $sql = "SELECT * FORM user";
-        $query =mysqli_query($conn,$sql);
-        if($query){
-          if(mysqli_num_rows($query)>0){
-            while($row=mysqli_fetch_assoc($query)){
+  $sql = "SELECT * FORM user";
+  $query = mysqli_query($conn,$sql);
+  if($query){
+    if(mysqli_num_rows($query)>0){
+      while($rww=mysqli_fetch_assoc($query)){
 
-        
-
+  
 
 ?>
       <tr>
         <td><?php echo $row['email']?></td>
         <td><?php echo $row['dob']?></td>
-        <td><a href="#" class="btn btn-success">Edit</a> <a href="#" class="btn btn-danger">Delete</a></td>
+        
+        <td>john@example.com</td>
       </tr>
-<?php
-
-            }
-          }
-        }
-?>
+ <?php
+      }
+    }
+  }
+ 
+ ?>   
     </tbody>
   </table>
 </div>
 
 </body>
 </html>
+
+
