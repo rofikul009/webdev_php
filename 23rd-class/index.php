@@ -26,7 +26,7 @@
     <?php
         include_once 'connect.php';
 
-        $sql = "SELECT * FORM user";
+        $sql = "SELECT * FROM `user`";
         $query =mysqli_query($conn,$sql);
         if($query){
           if(mysqli_num_rows($query)>0){
@@ -39,7 +39,7 @@
       <tr>
         <td><?php echo $row['email']?></td>
         <td><?php echo $row['dob']?></td>
-        <td><a href="#" class="btn btn-success">Edit</a> <a href="#" class="btn btn-danger">Delete</a></td>
+        <td><a href="edit.php?id=<?=$row['id'];?>" class="btn btn-success">Edit</a> <a href="#" class="btn btn-danger">Delete</a></td>
       </tr>
 <?php
 

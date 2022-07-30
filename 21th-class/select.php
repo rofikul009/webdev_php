@@ -25,13 +25,13 @@
     </thead>
     <tbody>
     <?php
-  include_once 'connect.php';
+      include_once 'connect.php';
 
-  $sql = "SELECT * FORM user";
-  $query = mysqli_query($conn,$sql);
-  if($query){
-    if(mysqli_num_rows($query)>0){
-      while($rww=mysqli_fetch_assoc($query)){
+      $sql = "SELECT * FROM `user`";
+      $query = mysqli_query($conn,$sql);
+      if($query){
+        if(mysqli_num_rows($query)>0){
+          while($row=mysqli_fetch_assoc($query)){
 
   
 
