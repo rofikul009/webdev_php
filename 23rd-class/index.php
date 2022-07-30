@@ -37,8 +37,8 @@
 
 ?>
       <tr>
-        <td><?php echo $row['email']?></td>
-        <td><?php echo $row['dob']?></td>
+        <td><?php echo $row['email'];?></td>
+        <td><?php echo $row['dob'];?></td>
         <td><a href="edit.php?id=<?=$row['id'];?>" class="btn btn-success">Edit</a> <a href="#" class="btn btn-danger">Delete</a></td>
       </tr>
 <?php
