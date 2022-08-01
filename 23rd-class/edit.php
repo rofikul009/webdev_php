@@ -9,6 +9,7 @@
         $query = mysqli_query($conn,$sql);
         if($query){
             header('location:index.php');
+            echo "update email";
         }
         else{
           echo "sumething wrong".mysqli_error($conn);
