@@ -1,3 +1,4 @@
+
 <?php
 
 include "layout/css.php";
@@ -16,29 +17,37 @@ include "layout/css.php";
                 <div class="col-lg-6">
                     <div class="login-content">
                         <div class="login-logo">
-                            <a href="index.html"><span>Focus</span></a>
+                            <a href="index.php"><span>Signup</span></a>
                         </div>
                         <div class="login-form">
                             <h4>Register to Administration</h4>
-                            <form>
+                            <form action="page-register.php" method="post">
                                 <div class="form-group">
-                                    <label>User Name</label>
-                                    <input type="email" class="form-control" placeholder="User Name">
+                                    <label>Ful Name</label>
+                                    <input type="text" name="name" class="form-control" placeholder="User Name">
                                 </div>
                                 <div class="form-group">
                                     <label>Email address</label>
-                                    <input type="email" class="form-control" placeholder="Email">
+                                    <input type="email" name="email" class="form-control" placeholder="Email">
                                 </div>
                                 <div class="form-group">
                                     <label>Password</label>
-                                    <input type="password" class="form-control" placeholder="Password">
+                                    <input type="password" name="pwd" class="form-control" placeholder="Password">
                                 </div>
-                                <div class="checkbox">
-                                    <label>
-										<input type="checkbox"> Agree the terms and policy 
-									</label>
+                                <div class="form-group">
+                                    <label>Re_Password</label>
+                                    <input type="password" name="pwd" class="form-control" placeholder="Re-Password">
                                 </div>
-                                <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Register</button>
+                                <div class="form-group">
+                                    <label>Mobile</label>
+                                    <input type="number" name="mobile" class="form-control" placeholder="Mobile">
+                                </div>
+                                <div class="form-group">
+                                    <label>date</label>
+                                    <input type="date" name="date" class="form-control" placeholder="Dayth of barht">
+                                </div>
+                                
+                                <button type="submit" name="signup" class="btn btn-primary btn-flat m-b-30 m-t-30">Register</button>
                                 <div class="social-login-content">
                                     <div class="social-button">
                                         <button type="button" class="btn btn-primary bg-facebook btn-flat btn-addon m-b-10"><i class="ti-facebook"></i>Register with facebook</button>
