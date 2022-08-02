@@ -38,14 +38,14 @@
             <div class="nano-content">
                 <ul>
                     <div class="logo"><a href="index.html">
-                            <!-- <img src="images/logo.png" alt="" /> --><span>Focus</span></a></div>
+                            <!-- <img src="images/logo1.png" alt="" /> --><span>Focus</span></a></div>
                     <li class="label">Main</li>
                     <li><a class="sidebar-sub-toggle"><i class="ti-home"></i> Dashboard <span
                                 class="badge badge-primary">2</span> <span
                                 class="sidebar-collapse-icon ti-angle-down"></span></a>
                         <ul>
-                            <li><a href="index.html">Dashboard 1</a></li>
-                            <li><a href="index.html">Dashboard 2</a></li>
+                            <li><a href="index.php">Dashboard 1</a></li>
+                            <li><a href="index.php">Dashboard 2</a></li>
                         </ul>
                     </li>
 
@@ -63,7 +63,7 @@
                         </ul>
                     </li>
                     <li><a href="app-event-calender.html"><i class="ti-calendar"></i> Calender </a></li>
-                    <li><a href="app-email.html"><i class="ti-email"></i> Email</a></li>
+                    <li><a href="app-email.php"><i class="ti-email"></i> Email</a></li>
                     <li><a href="app-profile.html"><i class="ti-user"></i> Profile</a></li>
                     <li><a href="app-widget-card.html"><i class="ti-layout-grid2-alt"></i> Widget</a></li>
                     <li class="label">Features</li>
@@ -163,7 +163,6 @@
                         </div>
                     </div>
                     <div class="float-right">
-                        <div class="dropdown dib">
                             <div class="header-icon" data-toggle="dropdown">
                                 <i class="ti-bell"></i>
                                 <div class="drop-down dropdown-menu dropdown-menu-right">
